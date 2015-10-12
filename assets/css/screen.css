@@ -486,9 +486,9 @@ margin on the iframe, cause it breaks stuff. */
 
 body.nav-opened .site-wrapper {
     overflow-x: hidden;
-    -webkit-transform: translate3D(-240px, 0, 0);
-        -ms-transform: translate3D(-240px, 0, 0);
-            transform: translate3D(-240px, 0, 0);
+    -webkit-transform: translate3D(-509px, 0, 0);
+        -ms-transform: translate3D(-509px, 0, 0);
+            transform: translate3D(-509px, 0, 0);
     -webkit-transition: -webkit-transform 0.3s ease;
             transition: transform 0.3s ease;
 }
@@ -531,7 +531,7 @@ body.nav-opened .nav-cover {
     position: fixed;
     top: 0;
     left: 0;
-    right: 240px;
+    right: 500px;
     bottom: 0;
     z-index: 200;
 }
@@ -542,7 +542,7 @@ body.nav-opened .nav-cover {
     right: 0;
     bottom: 0;
     z-index: 5;
-    width: 240px;
+    width: 519px;
     opacity: 0;
     background: #111;
     margin-bottom: 0;
@@ -574,7 +574,7 @@ body.nav-opened .nav {
 .nav-title {
     position: absolute;
     top: 45px;
-    left: 30px;
+    left: 62px;
     font-size: 16px;
     font-weight: 100;
     text-transform: uppercase;
@@ -630,7 +630,7 @@ body.nav-opened .nav {
     list-style: none;
     counter-reset: item;
 }
-
+/*
 .nav li:before {
     display: block;
     float: right;
@@ -642,7 +642,7 @@ body.nav-opened .nav {
     color: #B8B8B8;
     content: counter(item, lower-roman);
     counter-increment: item;
-}
+}*/
 .nav li {
     margin: 0;
 }
@@ -1072,6 +1072,7 @@ body:not(.post-template) .post-title {
     margin-top: 0;
     border-bottom: none;
     padding-bottom: 0;
+    margin-bottom: 73px;
 }
 
 /* Kill that stylish little circle that was on the border, too */
@@ -1392,7 +1393,7 @@ body:not(.post-template) .post-title {
 }
 
 .read-next-story .post:before {
-    content: "Read This Next";
+    content: "Next Chapter";
     padding: 4px 10px 5px;
     text-transform: uppercase;
     font-size: 1.1rem;
@@ -1403,7 +1404,7 @@ body:not(.post-template) .post-title {
     transition: all 0.5s ease;
 }
 .read-next-story.prev .post:before {
-    content: "You Might Enjoy";
+    content: "Previous Chapter";
 }
 
 .read-next-story h2 {
