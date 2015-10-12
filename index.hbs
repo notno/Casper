@@ -62,6 +62,10 @@
         <li><a href="/epilogue">Epilogue: Author's Journey</a></li>
         <li><a href="/bibliography">Bibliography</a></li>
         </ul>
+        {{#posts.[4]}}
+          <h3 class="first_title">{{title}}</h3>
+          <div class="first_content">{{content}}</div>
+        {{/posts.[4]}}
     </div>
     {{! The tag below includes the post loop - partials/loop.hbs }}
     {{!> "loop"}}
