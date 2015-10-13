@@ -526,6 +526,8 @@ body.nav-opened .site-wrapper {
     font-family: 'Open Sans', sans-serif;
 }
 
+
+
 /* Navigation */
 body.nav-opened .nav-cover {
     position: fixed;
@@ -534,6 +536,30 @@ body.nav-opened .nav-cover {
     right: 500px;
     bottom: 0;
     z-index: 200;
+}
+
+body.home-template .content {
+    width: 1200px;
+    margin: auto;
+}
+
+.column {
+    float: left;
+}
+
+.column.left {
+    width: 430px;
+    margin-right: 68px;
+    padding: 50px;
+    border: 1px solid #eee;
+}
+
+.column.right {
+    width: 600px;
+}
+
+article.post.tag-blog {
+    width: 100%;
 }
 
 .nav {
